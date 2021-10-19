@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxStrokeColor="@color/pink_color"
+        app:startIconDrawable="@drawable/ic_baseline_playlist_play_24"
+        app:startIconTint="@color/pink_color"
+        android:hint="@string/playlist_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvPlaylistName"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxStrokeColor="@color/pink_color"
+        app:startIconDrawable="@drawable/ic_baseline_playlist_play_24"
+        app:startIconTint="@color/pink_color"
+        android:hint="@string/user_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/tvUserName"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

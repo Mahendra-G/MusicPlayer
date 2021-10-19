@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/dimen_16dp"
+    app:strokeColor="@color/black"
+    android:layout_margin="@dimen/dimen_10dp"
+    app:strokeWidth="0.5dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/playlistImg"
+        android:layout_width="@dimen/dimen_170dp"
+        android:layout_height="@dimen/dimen_130dp"
+        android:src="@drawable/music_player_icon"
+        app:shapeAppearanceOverlay="@style/curved" />
+
+    <TextView
+        android:id="@+id/tvPlaylistName"
+        android:layout_width="@dimen/dimen_130dp"
+        android:layout_height="@dimen/dimen_40dp"
+        android:layout_marginTop="130dp"
+        android:contentDescription="@string/playlist_name"
+        android:gravity="center"
+        android:text="@string/playlist_name"
+        android:textColor="@color/black"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textSize="@dimen/dimen_18sp" />
+
+    <ImageButton
+        android:id="@+id/imgDeleteBtn"
+        android:contentDescription="@string/delete"
+        android:layout_width="@dimen/dimen_35dp"
+        android:src="@drawable/delete_icon"
+        app:tint="@color/pink_color"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginEnd="@dimen/dimen_5dp"
+        android:layout_marginTop="@dimen/dimen_130dp"
+        android:layout_marginStart="@dimen/dimen_130dp"
+        android:layout_height="@dimen/dimen_35dp"/>
+</com.google.android.material.card.MaterialCardView>

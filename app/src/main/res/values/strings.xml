@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Music Player</string>
+
+    <string name="start_time">00.00</string>
+    <string name="final_time">00.00</string>
+    <string name="playlists_btn">Playlists</string>
+    <string name="total_songs">Total Songs</string>
+    <string name="music">Now Playing</string>
+    <string name="back_btn">back</string>
+    <string name="playlists">Playlists</string>
+    <string name="song_name">Song Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="delete">delete</string>
+    <string name="user_name">Your Name</string>
+    <string name="add_song">Add Song</string>
+    <string name="remove_song">Remove Song</string>
+    <string name="search_song">Search Song</string>
+</resources>
