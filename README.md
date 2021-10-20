@@ -2,7 +2,7 @@
 The goal of this sample music player app is to show how to implement an music player application that works across multiple form factors and 
 provides a consistent user experience on Android Phone.
 This android application that enables the user to listen local music files available on the device. Using the Android Service class this music player is able to play  media even 
-when the application is in background. By Implementing the BroadcasrReceivers, this application is able to control the music player from the lockscreen as well as from the notification pannel.
+when the application is in background. By Implementing the BroadcastReceivers, this application is able to control the music player from the lockscreen as well as from the notification pannel.
 
 # Getting Started
 
